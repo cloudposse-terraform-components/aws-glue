@@ -1,9 +1,13 @@
 name: "aws-glue"
 # Canonical GitHub repo
 github_repo: "cloudposse-terraform-components/aws-glue"
-tags: []
+tags:
+  - layer/unassigned
+  - provider/aws
 # Categories of this project
-categories: []
+categories:
+  - layer/unassigned
+  - provider/aws
 # License of this project
 license: "APACHE2"
 # Badges to display
@@ -22,5 +26,15 @@ related:
     description: "Atmos is like docker-compose but for your infrastructure"
     url: "https://atmos.tools"
 contributors: [] # If included generates contribs
-description: |
+description: |-
   # Components
+   * [catalog-database](https://github.com/cloudposse-terraform-components/aws-glue/tree/main/src/catalog-database)
+   * [catalog-table](https://github.com/cloudposse-terraform-components/aws-glue/tree/main/src/catalog-table)
+   * [connection](https://github.com/cloudposse-terraform-components/aws-glue/tree/main/src/connection)
+   * [crawler](https://github.com/cloudposse-terraform-components/aws-glue/tree/main/src/crawler)
+   * [iam](https://github.com/cloudposse-terraform-components/aws-glue/tree/main/src/iam)
+   * [job](https://github.com/cloudposse-terraform-components/aws-glue/tree/main/src/job)
+   * [registry](https://github.com/cloudposse-terraform-components/aws-glue/tree/main/src/registry)
+   * [schema](https://github.com/cloudposse-terraform-components/aws-glue/tree/main/src/schema)
+   * [trigger](https://github.com/cloudposse-terraform-components/aws-glue/tree/main/src/trigger)
+   * [workflow](https://github.com/cloudposse-terraform-components/aws-glue/tree/main/src/workflow)
